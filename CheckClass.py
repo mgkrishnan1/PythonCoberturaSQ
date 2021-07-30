@@ -1,6 +1,5 @@
 class CheckClass:
 
-
     @staticmethod
     def checkValue(value):
         if type(value) not in [int, float]:

@@ -1,6 +1,7 @@
 import unittest
 from CheckClass import CheckClass
 
+
 class Test1(unittest.TestCase):
     def setUp(self):
         self.v1 = CheckClass()

@@ -8,7 +8,6 @@ class Test1(unittest.TestCase):
 
     def tearDown(self):
         pass
-
     def test_checkValue(self):
         # Test for positive case.
         val = self.v1.checkValue(3.2)

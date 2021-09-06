@@ -18,8 +18,8 @@ class Test1(unittest.TestCase):
         self.assertEqual(val, 0)
 
         # Test for negative case.
-        # val = self.v1.checkValue(-5)
-        # self.assertEqual(val, -1)
+        val = self.v1.checkValue(-5)
+        self.assertEqual(val, -1)
 
         # Test for TypeError
         with self.assertRaises(TypeError):
